@@ -8,8 +8,6 @@ function [ydb] = pow2db(y)
 //Examples
 //y=20.5
 //pow2db(y)
-//See also
-//watt to decibel conversion
 //Authors
 //Ishita Bedi
 
