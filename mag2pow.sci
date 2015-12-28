@@ -12,8 +12,6 @@ function [y] = mag2pow(ydb)
 //dp2pow -- in.mathworks.com
 //Authors
 //Ishita Bedi
-//Bibliography
-//in.mathworks.com
 
 funcprot(0);
 
