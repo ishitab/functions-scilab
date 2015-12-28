@@ -12,7 +12,10 @@ function [y] = mag2pow(ydb)
 //Ishita Bedi
 
 funcprot(0);
-
+rhs = argn(2)
+if(rhs~=1)
+error("Wrong number of input arguments.")
+end
 //This statement calculates the power in Watt of ydb which was in decibel using ydb = 10log (y) -- log base 10
 
 y = 10.^(ydb/10); 
