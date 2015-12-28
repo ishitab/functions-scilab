@@ -12,8 +12,6 @@ function [ydb] = pow2db(y)
 //watt to decibel conversion
 //Authors
 //Ishita Bedi
-//Bibliography
-//in.mathworks.com
 
 funcprot(0);
 
