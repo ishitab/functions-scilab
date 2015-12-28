@@ -12,7 +12,10 @@ function [ydb] = pow2db(y)
 //Ishita Bedi
 
 funcprot(0);
-
+rhs = argn(2)
+if(rhs~=1)
+error("Wrong number of input arguments.")
+end
 //This statement calculates the dB value of the power in Watt using ydb=10log(y) -- log base 10
 
 ydb = 10.*log(y);
