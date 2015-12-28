@@ -8,8 +8,6 @@ function [y] = mag2pow(ydb)
 //Examples
 //ydb = 20
 //y=mag2pow(ydb)
-//See also
-//dp2pow -- in.mathworks.com
 //Authors
 //Ishita Bedi
 
